@@ -45,9 +45,11 @@ jupyter notebook
 
 
 
-
-
-
+## optimization
+#### Regression using keras deep learning
+* batch_size: 40960 seems better than orignal 4096
+* adding dropout doesn't help
+* 
 
 
 #####  output of sudo find / -name 'libcudart.so*'
