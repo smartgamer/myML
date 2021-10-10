@@ -48,9 +48,13 @@ jupyter notebook
 ## optimization
 #### Regression using keras deep learning
 * batch_size: 40960 seems better than orignal 4096
-* adding dropout doesn't help
-* 
+* adding dropout doesn't help, make it worse actually
+* describe() to make sure data are numeric
+* RMSprop(0.001) is best
+* adding more neuron doesn't help
+* activation = 'softplus' decrease mae more than activation = 'relu
 
+'
 
 #####  output of sudo find / -name 'libcudart.so*'
 /home/upsman/anaconda3/envs/simfin-env/lib/libcudart.so
